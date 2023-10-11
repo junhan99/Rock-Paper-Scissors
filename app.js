@@ -1,13 +1,13 @@
 function getComputerChoice() {
     let computerChoice = Math.floor((Math.random() * 3) + 1)
 
-    // if (computerChoice === 1) {
-    //     computerChoice = 'Rock'
-    // } else if (computerChoice === 2) {
-    //     computerChoice = 'Paper'
-    // } else if (computerChoice === 3) {
-    //     computerChoice = 'Scissors'
-    // }
+    if (computerChoice === 1) {
+        computerChoice = 'Rock'
+    } else if (computerChoice === 2) {
+        computerChoice = 'Paper'
+    } else if (computerChoice === 3) {
+        computerChoice = 'Scissors'
+    }
     
     return computerChoice
 }
@@ -63,3 +63,14 @@ game()
 game()
 game()
 
+// variable for player Score 
+// variable for com Score
+
+// function randomising com choice 
+//     random
+//     convert number to rock/paper/scissors
+
+// function playing game: put all the conditions for 
+// the if statement for each scenario when playing
+
+// basically do the same as above but using strings instead of ints
