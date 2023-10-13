@@ -121,6 +121,7 @@ function getPlayerChoice() {
     const playerChoice = prompt("Please make a selection.", "rock, paper, scissors").toLowerCase();
     return playerChoice
 }
+
 function playRound(playerSelection, computerSelection) {
 
 
